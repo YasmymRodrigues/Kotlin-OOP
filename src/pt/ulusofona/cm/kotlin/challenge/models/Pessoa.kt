@@ -1,4 +1,4 @@
-package pt.ulusofona.cm.kotlin.challenge
+package pt.ulusofona.cm.kotlin.challenge.models
 
 import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
 import java.util.*
@@ -17,7 +17,7 @@ abstract class Pessoa(nome: String, dataDeNascimento: Date): Movimentavel {
     fun pesquisarVeiculo(identificador: String): Veiculo {
         return veiculo
     }
-    fun venderVeiculo(identificador: String, comprador:Pessoa){}
+    fun venderVeiculo(identificador: String, comprador: Pessoa){}
     fun moverVeiculoPara(identificador: String, x:Int, y:Int){}
     fun temCarta():Boolean{return true}
     fun tirarCarta(){}
