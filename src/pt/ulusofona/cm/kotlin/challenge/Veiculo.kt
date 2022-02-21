@@ -2,5 +2,13 @@ package pt.ulusofona.cm.kotlin.challenge
 
 import java.util.*
 
-class Veiculo(identificador: String, posicao: Posicao, dataDeAquisicao: Date) {
+abstract class Veiculo(identificador: String) {
+    val identificador: String = ""
+    abstract val posicao: Posicao
+    abstract val dataDeAquisicao: Date
+
+    fun requerCarta(): Boolean{ return false}
+
+
+
 }
