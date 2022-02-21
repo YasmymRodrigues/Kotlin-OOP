@@ -15,7 +15,7 @@ abstract class Pessoa(nome: String, dataDeNascimento: Date): Movimentavel {
 
     fun comprarVeiculo(veiculo: Veiculo){}
     fun pesquisarVeiculo(identificador: String): Veiculo {
-        return Veiculo("dd")
+        return veiculo
     }
     fun venderVeiculo(identificador: String, comprador:Pessoa){}
     fun moverVeiculoPara(identificador: String, x:Int, y:Int){}
