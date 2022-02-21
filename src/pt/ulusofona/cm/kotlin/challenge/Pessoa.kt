@@ -3,7 +3,7 @@ package pt.ulusofona.cm.kotlin.challenge
 import java.util.*
 import javax.xml.crypto.Data
 
-class Pessoa(nome: String, dataDeNascimento: Date) {
+abstract class Pessoa(nome: String, dataDeNascimento: Date) {
     private val nome : String =""
     private val list = mutableListOf<Veiculo>()
     abstract val dataDeNascimento : Date
