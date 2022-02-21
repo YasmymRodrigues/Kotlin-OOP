@@ -4,7 +4,7 @@ import pt.ulusofona.cm.kotlin.challenge.interfaces.Ligavel
 import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
 import java.util.*
 
-class Veiculo(identificador: String):Movimentavel, Ligavel {
+abstract class Veiculo(identificador: String):Movimentavel, Ligavel {
     val identificador: String = ""
     abstract val posicao: Posicao
     abstract val dataDeAquisicao: Date

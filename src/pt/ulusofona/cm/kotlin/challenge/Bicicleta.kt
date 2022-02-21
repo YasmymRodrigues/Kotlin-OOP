@@ -1,5 +1,7 @@
 package pt.ulusofona.cm.kotlin.challenge
 
-class Bicicleta(identificador: String) {
+import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
+
+abstract class Bicicleta(identificador: String): Movimentavel {
      val identificador: String = ""
 }

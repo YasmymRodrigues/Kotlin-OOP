@@ -3,6 +3,7 @@ package pt.ulusofona.cm.kotlin.challenge
 import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
 import java.util.*
 
+
 abstract class Pessoa(nome: String, dataDeNascimento: Date): Movimentavel {
     private val nome : String =""
     private val list = mutableListOf<Veiculo>()
@@ -12,7 +13,7 @@ abstract class Pessoa(nome: String, dataDeNascimento: Date): Movimentavel {
 
 
     fun comprarVeiculo(veiculo: Veiculo){}
-    fun pesquisarVeiculo(identificador: String): Veiculo{ return Veiculo("teste")}
+    fun pesquisarVeiculo(identificador: String): Veiculo { return Veiculo}
     fun venderVeiculo(identificador: String, comprador:Pessoa){}
     fun moverVeiculoPara(identificador: String, x:Int, y:Int){}
     fun temCarta():Boolean{return true}
