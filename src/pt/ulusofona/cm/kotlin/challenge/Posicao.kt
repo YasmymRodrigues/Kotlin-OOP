@@ -1,6 +1,9 @@
 package pt.ulusofona.cm.kotlin.challenge
 
-class Posicao(x:Int, y:Int) {
+import pt.ulusofona.cm.kotlin.challenge.interfaces.Ligavel
+import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
+
+class Posicao(x:Int, y:Int){
     val x: Int = 0
     val y: Int = 0
 
