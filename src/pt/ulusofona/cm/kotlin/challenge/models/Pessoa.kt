@@ -6,13 +6,14 @@ import java.util.*
 
 abstract class Pessoa(nome: String, dataDeNascimento: Date): Movimentavel {
     val nome : String =""
-    private val list = mutableListOf<Veiculo>()
+    private val veiculos = mutableListOf<Veiculo>()
     abstract val dataDeNascimento : Date
     abstract val carta : Carta
     abstract val posicao : Posicao
     abstract val veiculo: Veiculo
-    private val x: Int = 0
-    private val y: Int = 0
+    abstract val bicicleta: Bicicleta
+    val x: Int = 0
+    val y: Int = 0
 
 
     fun comprarVeiculo(veiculo: Veiculo){}
