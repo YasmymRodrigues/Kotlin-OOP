@@ -7,5 +7,8 @@ abstract class Motor(cavolos: Int, cilindrada: Int): Ligavel {
     val cilindrada: Int = 0
     val ligado: Boolean = false
 
+    override fun toString(): String {
+        return "Moto | $cavalos | $cilindrada"
+    }
 
 }

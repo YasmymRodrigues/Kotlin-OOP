@@ -9,4 +9,8 @@ abstract class Posicao(x:Int, y:Int): Movimentavel{
 
     fun alterarPosicao(x:Int, y: Int){}
 
+    override fun toString(): String {
+        return "Posição | $x |$y"
+    }
+
 }

@@ -11,6 +11,8 @@ abstract class Pessoa(nome: String, dataDeNascimento: Date): Movimentavel {
     abstract val carta : Carta
     abstract val posicao : Posicao
     abstract val veiculo: Veiculo
+    private val x: Int = 0
+    private val y: Int = 0
 
 
     fun comprarVeiculo(veiculo: Veiculo){}
@@ -23,5 +25,7 @@ abstract class Pessoa(nome: String, dataDeNascimento: Date): Movimentavel {
     fun tirarCarta(){}
 
 
-
+    override fun toString(): String {
+        return "Pessoa | $nome | $dataDeNascimento |  $posicao | $x |$y"
+    }
 }
