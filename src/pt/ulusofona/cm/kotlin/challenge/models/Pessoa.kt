@@ -5,7 +5,7 @@ import java.util.*
 
 
 abstract class Pessoa(nome: String, dataDeNascimento: Date): Movimentavel {
-    private val nome : String =""
+    val nome : String =""
     private val list = mutableListOf<Veiculo>()
     abstract val dataDeNascimento : Date
     abstract val carta : Carta
