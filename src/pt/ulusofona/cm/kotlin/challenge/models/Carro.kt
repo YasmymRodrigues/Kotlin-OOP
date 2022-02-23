@@ -3,7 +3,7 @@ package pt.ulusofona.cm.kotlin.challenge.models
 class Carro(identificador: String, motor: Motor): Veiculo(){
     val identificador: String = ""
     val motor: Motor = TODO()
-    val dataDeAquisicao: Data
+    override val dataDeAquisicao: Data
     val posicao: Posicao
     val x: Int = 0
     val y: Int = 0
