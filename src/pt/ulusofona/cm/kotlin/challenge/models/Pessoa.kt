@@ -5,11 +5,11 @@ import java.util.*
 
 class Pessoa(nome: String, dataDeNascimento: Data) {
     val nome : String =""
-    //private val veiculos = mutableListOf<Veiculo>()
+    private val veiculos = mutableListOf<Veiculo>()
     val dataDeNascimento : Data = TODO()
     val carta : Carta
     val posicao : Posicao
-    //val veiculo: Veiculo
+    val veiculo: Veiculo
     //abstract val bicicleta: Bicicleta
     val x: Int = 0
     val y: Int = 0
@@ -17,9 +17,9 @@ class Pessoa(nome: String, dataDeNascimento: Data) {
 
 
     fun comprarVeiculo(veiculo: Veiculo){}
-    /*fun pesquisarVeiculo(identificador: String): Veiculo {
+    fun pesquisarVeiculo(identificador: String): Veiculo {
         return veiculo
-    }*/
+    }
     fun venderVeiculo(identificador: String, comprador: Pessoa){}
     fun moverVeiculoPara(identificador: String, x:Int, y:Int){}
     fun temCarta():Boolean{return true}
