@@ -9,6 +9,9 @@ abstract class Bicicleta(identificador: String): Movimentavel {
      val x : Int = 0
      val y: Int = 0
 
+     abstract fun requerCarta()
+
+
      override fun toString(): String {
           return "Bicicleta | $identificador | $dataDeAquisicao |  $posicao | $x |$y"
      }
