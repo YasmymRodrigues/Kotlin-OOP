@@ -1,4 +1,5 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
-abstract class MockPessoa {
+abstract class MockPessoa(dataDeNascimento: Data) {
+
 }
