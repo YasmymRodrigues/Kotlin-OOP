@@ -1,6 +1,6 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
-class Carro(identificador: String, motor: Motor){
+class Carro(identificador: String, motor: Motor): Veiculo(){
     val identificador: String = ""
     val motor: Motor = TODO()
     val dataDeAquisicao: Data
@@ -13,3 +13,7 @@ class Carro(identificador: String, motor: Motor){
     }
 
 }
+
+//Single inheritance
+// Multilevel
+// Hierarchial
