@@ -4,11 +4,11 @@ import pt.ulusofona.cm.kotlin.challenge.interfaces.Ligavel
 import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
 import java.util.*
 
-abstract class Carro(identificador: String, motor: Motor): Movimentavel, Ligavel {
+class Carro(identificador: String, motor: Motor){
     val identificador: String = ""
-    abstract val motor: Motor
-    abstract val dataDeAquisicao: Date
-    abstract val posicao: Posicao
+    val motor: Motor = TODO()
+    val dataDeAquisicao: Date
+    val posicao: Posicao
     val x: Int = 0
     val y: Int = 0
 

@@ -4,10 +4,10 @@ import pt.ulusofona.cm.kotlin.challenge.interfaces.Ligavel
 import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
 import java.util.*
 
-abstract class Veiculo(identificador: String):Movimentavel, Ligavel {
+class Veiculo(identificador: String):Movimentavel, Ligavel {
     val identificador: String = ""
-    abstract val posicao: Posicao
-    abstract val dataDeAquisicao: Date
+    val posicao: Posicao = TODO()
+    val dataDeAquisicao: Date
 
     fun requerCarta(): Boolean{ return false}
     override fun ligar() {
