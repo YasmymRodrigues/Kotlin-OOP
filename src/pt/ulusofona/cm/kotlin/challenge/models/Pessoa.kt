@@ -9,7 +9,7 @@ class Pessoa(nome: String, dataDeNascimento: Data) {
     val dataDeNascimento : Data = TODO()
     val carta : Carta
     val posicao : Posicao
-    open val veiculo: Veiculo
+    val veiculo: Veiculo
     //abstract val bicicleta: Bicicleta
     val x: Int = 0
     val y: Int = 0

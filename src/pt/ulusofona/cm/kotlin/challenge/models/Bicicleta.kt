@@ -2,10 +2,8 @@ package pt.ulusofona.cm.kotlin.challenge.models
 
 import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
 
-abstract class Bicicleta(identificador: String): Movimentavel {
+abstract class Bicicleta(identificador: String, val dataDeAquisicao: Data, val posicao: Posicao): Movimentavel {
      val identificador: String = ""
-     abstract val dataDeAquisicao: Data
-     abstract val posicao: Posicao
      val x : Int = 0
      val y: Int = 0
 
