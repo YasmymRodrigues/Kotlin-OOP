@@ -1,10 +1,10 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
 class Carro(identificador: String, motor: Motor): Veiculo(){
-    val identificador: String = ""
+    override val identificador: String = ""
     val motor: Motor = TODO()
     override val dataDeAquisicao: Data
-    val posicao: Posicao
+    override val posicao: Posicao
     val x: Int = 0
     val y: Int = 0
 
