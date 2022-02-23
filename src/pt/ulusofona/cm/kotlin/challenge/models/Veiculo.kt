@@ -1,13 +1,9 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
-import pt.ulusofona.cm.kotlin.challenge.interfaces.Ligavel
-import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
-import java.util.*
-
 abstract class Veiculo(identificador: String) {
     val identificador: String = ""
     val posicao: Posicao = TODO()
-    val dataDeAquisicao: Date
+    val dataDeAquisicao: Data
 
     fun requerCarta(): Boolean{ return false}
 
