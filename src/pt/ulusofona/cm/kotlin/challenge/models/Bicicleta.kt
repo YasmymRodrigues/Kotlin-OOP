@@ -5,7 +5,7 @@ import java.util.*
 
 abstract class Bicicleta(identificador: String): Movimentavel {
      val identificador: String = ""
-     abstract public val dataDeAquisicao: Date
+     abstract val dataDeAquisicao: Date
      abstract val posicao: Posicao
      val x : Int = 0
      val y: Int = 0

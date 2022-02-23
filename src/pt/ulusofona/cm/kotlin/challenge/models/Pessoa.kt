@@ -4,14 +4,14 @@ import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
 import java.util.*
 
 
-abstract class Pessoa(nome: String, dataDeNascimento: Date): Movimentavel {
+class Pessoa(nome: String, dataDeNascimento: Date) {
     val nome : String =""
     private val veiculos = mutableListOf<Veiculo>()
-    abstract val dataDeNascimento : Date
-    abstract val carta : Carta
-    abstract val posicao : Posicao
-    abstract val veiculo: Veiculo
-    abstract val bicicleta: Bicicleta
+    val dataDeNascimento : Date
+    val carta : Carta
+    val posicao : Posicao
+    val veiculo: Veiculo
+    //abstract val bicicleta: Bicicleta
     val x: Int = 0
     val y: Int = 0
 
