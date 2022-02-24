@@ -6,7 +6,7 @@ import java.util.*
 class Pessoa(nome: String, dataDeNascimento: Calendar) {
     val nome : String =""
     private val veiculos = mutableListOf<Veiculo>()
-    val dataDeNascimento : Date = TODO()
+    val dataDeNascimento : Calendar = TODO()
     val carta : Carta
     val posicao : Posicao
     open val veiculo: Veiculo
