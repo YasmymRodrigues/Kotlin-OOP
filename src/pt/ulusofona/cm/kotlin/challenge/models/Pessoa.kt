@@ -1,12 +1,10 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
-import java.util.*
 
-
-class Pessoa(nome: String, dataDeNascimento: Calendar) {
+class Pessoa(nome: String, dataDeNascimento: Date) {
     val nome : String =""
     private val veiculos = mutableListOf<Veiculo>()
-    val dataDeNascimento : Calendar = TODO()
+    val dataDeNascimento : Date = TODO()
     val carta : Carta
     val posicao : Posicao
     open val veiculo: Veiculo
