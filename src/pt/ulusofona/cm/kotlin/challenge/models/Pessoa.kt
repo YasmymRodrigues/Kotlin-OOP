@@ -5,7 +5,7 @@ import javax.xml.crypto.Data
 
 class Pessoa(nome: String, dataDeNascimento: Data) {
     val nome : String =""
-    private val veiculos = mutableListOf<Veiculo>()
+    private val veiculos = listOf<Veiculo>()
     val dataDeNascimento : Data = TODO()
     val carta : Carta
     val posicao : Posicao
