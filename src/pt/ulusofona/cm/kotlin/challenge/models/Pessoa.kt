@@ -7,7 +7,6 @@ class Pessoa(nome: String, dataDeNascimento: Date) {
     private val veiculos = listOf<Veiculo>()
     val carta : Carta = TODO()
     val posicao : Posicao
-    open val veiculo: Veiculo
     val x: Int = 0
     val y: Int = 0
 
@@ -15,7 +14,7 @@ class Pessoa(nome: String, dataDeNascimento: Date) {
 
     fun comprarVeiculo(veiculo: Veiculo){}
     fun pesquisarVeiculo(identificador: String): Veiculo {
-        return veiculo
+        return Veiculo("");
     }
     fun venderVeiculo(identificador: String, comprador: Pessoa){}
     fun moverVeiculoPara(identificador: String, x:Int, y:Int){}
