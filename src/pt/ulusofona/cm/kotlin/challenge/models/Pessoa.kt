@@ -5,11 +5,9 @@ import java.util.*
 class Pessoa(nome: String, dataDeNascimento: Date) {
     val nome : String =""
     private val veiculos = listOf<Veiculo>()
-    val dataDeNascimento = Date()
     val carta : Carta = TODO()
     val posicao : Posicao
     open val veiculo: Veiculo
-    //abstract val bicicleta: Bicicleta
     val x: Int = 0
     val y: Int = 0
 
@@ -26,6 +24,7 @@ class Pessoa(nome: String, dataDeNascimento: Date) {
 
 
     override fun toString(): String {
-        return "Pessoa | $nome | $dataDeNascimento |  $posicao | $x |$y"
+        return "Pessoa |"
+        //return "Pessoa | $nome | $dataDeNascimento |  $posicao | $x |$y"
     }
 }
