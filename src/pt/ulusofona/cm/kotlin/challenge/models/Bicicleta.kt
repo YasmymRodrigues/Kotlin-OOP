@@ -8,7 +8,7 @@ abstract class Bicicleta(identificador: String) {
      val y: Int = 0
 
      abstract fun requerCarta(): Boolean
-
+     abstract fun movePara()
 
      override fun toString(): String {
           return "Bicicleta | "
