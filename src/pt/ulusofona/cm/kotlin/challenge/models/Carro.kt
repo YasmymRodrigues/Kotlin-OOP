@@ -1,7 +1,9 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
-class Carro(identificador: String, motor: Motor):Veiculo(identificador){
+abstract class Carro(identificador: String, motor: Motor):Veiculo(identificador){
 
+
+    abstract override fun requerCarta(): Boolean
 
     override fun toString(): String {
         return "Carro | $identificador |"
