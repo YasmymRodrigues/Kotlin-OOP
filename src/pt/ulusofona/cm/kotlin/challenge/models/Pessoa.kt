@@ -1,13 +1,12 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
-import javax.xml.crypto.Data
+import java.util.*
 
-
-class Pessoa(nome: String, dataDeNascimento: Data) {
+class Pessoa(nome: String, dataDeNascimento: Date) {
     val nome : String =""
     private val veiculos = listOf<Veiculo>()
-    val dataDeNascimento : Data = TODO()
-    val carta : Carta
+    val dataDeNascimento = Date()
+    val carta : Carta = TODO()
     val posicao : Posicao
     open val veiculo: Veiculo
     //abstract val bicicleta: Bicicleta
