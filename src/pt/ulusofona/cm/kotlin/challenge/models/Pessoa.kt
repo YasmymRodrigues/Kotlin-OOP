@@ -4,7 +4,6 @@ import java.util.*
 
 class Pessoa(nome: String, dataDeNascimento: Date) {
     val nome : String =""
-    private val veiculos = listOf<Veiculo>()
     val carta : Carta = TODO()
     val posicao : Posicao
     val x: Int = 0
