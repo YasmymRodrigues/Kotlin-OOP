@@ -5,7 +5,7 @@ import javax.xml.crypto.Data
 
 class Veiculo(val identificador: String) {
 
-    fun requerCarta(): Boolean{ return false}
+    //fun requerCarta(): Boolean{ return false}
 
 
 

@@ -11,7 +11,7 @@ class Pessoa(nome: String, dataDeNascimento: Date) {
 
 
 
-    fun comprarVeiculo(veiculo: Veiculo){}
+    //fun comprarVeiculo(veiculo: Veiculo){}
 //    fun pesquisarVeiculo(identificador: String): Veiculo {
 //        return Veiculo("");
 //    }
