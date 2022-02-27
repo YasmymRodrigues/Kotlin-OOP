@@ -7,5 +7,5 @@ import javax.xml.crypto.Data
 class VeiculoEscondido(var identificador: String) {
     val dataDeAquisicao: Data = TODO()
 
-  fun desligar(){}
+  //fun desligar(){}
 }
