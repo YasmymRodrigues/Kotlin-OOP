@@ -4,7 +4,8 @@ import pt.ulusofona.cm.kotlin.challenge.interfaces.Ligavel
 import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
 import javax.xml.crypto.Data
 
-class VeiculoEscondido(var identificador: String){
+open class VeiculoEscondido(var identificador: String){
     val dataDeAquisicao: Data = TODO()
 
+    fun desligar() {}
 }
