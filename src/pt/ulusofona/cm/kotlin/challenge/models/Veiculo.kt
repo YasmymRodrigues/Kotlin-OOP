@@ -5,8 +5,8 @@ import javax.xml.crypto.Data
 
 class Veiculo(var identificador: String) {
 
-    fun requerCarta(): Boolean{ return false}
-    fun moverPara(x:Int, y:Int) {}
+    final fun requerCarta(): Boolean{ return false}
+    final fun moverPara(x:Int, y:Int) {}
 
 
 }
