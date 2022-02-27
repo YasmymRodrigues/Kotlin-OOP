@@ -4,7 +4,7 @@ import pt.ulusofona.cm.kotlin.challenge.interfaces.Ligavel
 import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
 import javax.xml.crypto.Data
 
-open class VeiculoEscondido(override var identificador: String)  :Veiculo(identificador)  {
+abstract class VeiculoEscondido(override var identificador: String)  :Veiculo(identificador), Movimentavel, Ligavel  {
     override fun requerCarta(): Boolean {
         TODO("Not yet implemented")
     }
