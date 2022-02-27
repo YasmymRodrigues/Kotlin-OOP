@@ -3,6 +3,7 @@ package pt.ulusofona.cm.kotlin.challenge.models
 import java.util.*
 
 class Pessoa(nome: String, dataDeNascimento: Date) {
+    val dataDeAquisicao: Date = TODO()
     val nome : String =""
     val carta : Carta = TODO()
     var veiculos: List<Veiculo>
@@ -12,10 +13,10 @@ class Pessoa(nome: String, dataDeNascimento: Date) {
 
 
 
-    //fun comprarVeiculo(veiculo: Veiculo){}
-//    fun pesquisarVeiculo(identificador: String): Veiculo {
-//        return Veiculo("");
-//    }
+    fun comprarVeiculo(veiculo: Veiculo){}
+    fun pesquisarVeiculo(identificador: String): Veiculo {
+        return Veiculo("");
+   }
     fun venderVeiculo(identificador: String, comprador: Pessoa){}
     fun moverVeiculoPara(identificador: String, x:Int, y:Int){}
     fun temCarta():Boolean{return true}

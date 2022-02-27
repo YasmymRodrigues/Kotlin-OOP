@@ -1,9 +1,20 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
-abstract class Carro(identificador: String, motor: Motor){
+class Carro(identificador: String, motor: Motor): Veiculo(identificador){
 
 
-   // abstract fun requerCarta(): Boolean
+    override fun requerCarta(): Boolean { return false}
+    override fun ligar() {
+        TODO("Not yet implemented")
+    }
+
+    override fun desligar() {
+        TODO("Not yet implemented")
+    }
+
+    override fun estaLigado(): Boolean {
+        TODO("Not yet implemented")
+    }
 
     override fun toString(): String {
         return "Carro ||"
