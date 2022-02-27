@@ -7,6 +7,7 @@ class Pessoa(nome: String, dataDeNascimento: Date) {
     val nome : String =""
     val carta : Carta = TODO()
     var veiculos: List<Veiculo>
+    val veiculo: Veiculo
     val posicao : Posicao
     var x: Int = 0
     var y: Int = 0
@@ -15,7 +16,7 @@ class Pessoa(nome: String, dataDeNascimento: Date) {
 
     fun comprarVeiculo(veiculo: Veiculo){}
     fun pesquisarVeiculo(identificador: String): Veiculo {
-        return Veiculo("");
+        return veiculo;
    }
     fun venderVeiculo(identificador: String, comprador: Pessoa){}
     fun moverVeiculoPara(identificador: String, x:Int, y:Int){}
