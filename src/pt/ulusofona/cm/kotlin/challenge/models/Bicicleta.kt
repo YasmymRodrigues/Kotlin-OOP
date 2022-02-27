@@ -5,7 +5,7 @@ import java.util.*
 import javax.xml.crypto.Data
 
 abstract class Bicicleta(identificador: String) :Veiculo(identificador) {
-
+     val dataDeAquisicao: Date = TODO()
      val dataDeNascimento: Date = TODO()
      abstract val posicao: Posicao
      override fun moverPara(x:Int, y:Int) {}
