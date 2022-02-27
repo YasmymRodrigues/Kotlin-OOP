@@ -4,7 +4,7 @@ import pt.ulusofona.cm.kotlin.challenge.interfaces.Ligavel
 import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
 import javax.xml.crypto.Data
 
-class VeiculoEscondido(var identificador: String) :Movimentavel {
+class VeiculoEscondido(var identificador: String) {
     val dataDeAquisicao: Data = TODO()
     fun ligar() {
         TODO("Not yet implemented")
@@ -15,9 +15,7 @@ class VeiculoEscondido(var identificador: String) :Movimentavel {
         TODO("Not yet implemented")
     }
 
-    override fun moverPara(x: Int, y: Int) {
-        TODO("Not yet implemented")
-    }
+
 
 
 }
