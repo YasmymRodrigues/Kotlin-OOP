@@ -5,9 +5,10 @@ import java.util.*
 class Pessoa(nome: String, dataDeNascimento: Date) {
     val nome : String =""
     val carta : Carta = TODO()
-    val posicao : Posicao
-    val x: Int = 0
-    val y: Int = 0
+    var veiculos: List<Veiculo>
+    var posicao : Posicao
+    var x: Int = 0
+    var y: Int = 0
 
 
 
