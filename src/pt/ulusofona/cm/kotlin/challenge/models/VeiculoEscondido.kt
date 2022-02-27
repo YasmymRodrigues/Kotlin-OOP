@@ -7,4 +7,5 @@ import javax.xml.crypto.Data
 abstract class VeiculoEscondido(override var identificador: String) :Veiculo(identificador){
     val dataDeAquisicao: Data = TODO()
 
+    override fun desligar(){}
 }
