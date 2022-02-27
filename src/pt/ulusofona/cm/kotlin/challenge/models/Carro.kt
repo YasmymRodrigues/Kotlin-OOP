@@ -1,7 +1,10 @@
 package pt.ulusofona.cm.kotlin.challenge.models
 
-class Carro(identificador: String, motor: Motor): Veiculo(identificador){
+import java.util.*
 
+class Carro(identificador: String, motor: Motor) : Veiculo(identificador){
+    val dataDeAquisicao: Date = TODO()
+    val posicao: Posicao
 
     override fun requerCarta(): Boolean { return false}
     override fun ligar() {
