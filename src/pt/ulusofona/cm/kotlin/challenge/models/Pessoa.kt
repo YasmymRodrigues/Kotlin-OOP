@@ -6,7 +6,7 @@ class Pessoa(nome: String, dataDeNascimento: Date) {
     val nome : String =""
     val carta : Carta = TODO()
     var veiculos: List<Veiculo>
-    var posicao : Posicao
+    val posicao : Posicao
     var x: Int = 0
     var y: Int = 0
 
