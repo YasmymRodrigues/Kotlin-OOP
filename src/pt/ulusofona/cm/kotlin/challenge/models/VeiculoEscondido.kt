@@ -4,7 +4,7 @@ import pt.ulusofona.cm.kotlin.challenge.interfaces.Ligavel
 import pt.ulusofona.cm.kotlin.challenge.interfaces.Movimentavel
 import javax.xml.crypto.Data
 
-abstract class VeiculoEscondido(var identificador: String) :Ligavel {
+abstract class VeiculoEscondido(override var identificador: String) :Veiculo(identificador), Ligavel {
     val dataDeAquisicao: Data = TODO()
 
     abstract override fun desligar()
