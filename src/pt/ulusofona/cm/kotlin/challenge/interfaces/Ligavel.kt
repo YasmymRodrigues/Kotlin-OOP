@@ -2,7 +2,7 @@ package pt.ulusofona.cm.kotlin.challenge.interfaces
 
 interface Ligavel {
     fun ligar()
-    fun desligar()
+    fun desligar(): Boolean
     fun estaLigado():Boolean
 
 }

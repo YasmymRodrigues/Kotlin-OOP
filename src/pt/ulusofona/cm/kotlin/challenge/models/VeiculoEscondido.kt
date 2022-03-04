@@ -10,8 +10,8 @@ class VeiculoEscondido(override var identificador: String) :Veiculo(identificado
 
     }
 
-    override fun desligar() {
-        TODO("Not yet implemented")
+    override fun desligar(): Boolean {
+        return true;
     }
 
     override fun estaLigado(): Boolean {
